@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Extension</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="weather-container">
+    <h1>Check Weather</h1>
+    <form id="city-form">
+      <input type="text" id="city-input" placeholder="Enter city name" required />
+      <button type="submit">Get Weather</button>
+    </form>
+    <div id="weather-info">
+      <div id="location"></div>
+      <div id="temp"></div>
+      <div id="condition"></div>
+      <img id="weather-icon" alt="weather icon" />
+      <div id="details">
+        <p><strong>Wind:</strong> <span id="wind"></span></p>
+        <p><strong>Humidity:</strong> <span id="humidity"></span></p>
+        <p><strong>Pressure:</strong> <span id="pressure"></span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
