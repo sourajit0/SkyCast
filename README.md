@@ -51,7 +51,7 @@ Before installing and running the extension, ensure that you have:
 ### SkyCast Interface
 ![SkyCast Screenshot 1](ScreenshotI.png)
 
-> *Description: A snapshot of SkyCast showing the weather details of the current location.*
+> *Description: A snapshot of SkyCast.*
 
 ### City Search Functionality
 ![City Search Screenshot](Screenshot.png)
